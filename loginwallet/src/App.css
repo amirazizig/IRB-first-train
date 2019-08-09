@@ -1,0 +1,103 @@
+@font-face{
+  font-family: Byekan;
+  src: url('./components/fonts/Yekan.ttf');
+}
+html{
+  direction: rtl;
+  height: 100%;
+}
+body{
+  
+  font-family: Byekan;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 100%;
+  background: #4b6cb7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.App {
+  margin: 0 auto;
+  text-align: center;
+}
+.card{
+  border: none;
+  box-shadow: none;
+  text-align: center;
+  opacity: .99;
+  
+}
+.card-header{
+  background-color: #28353D;
+  color: white;
+  
+}
+.card-footer{
+  border-top: none;
+}
+.list-group{
+  margin-top: 40px;
+  border: .8px solid rgb(112, 107, 107);
+  border-radius: 5px;
+}
+.list-group-item.active{
+  background-color: rgba(63, 155, 63, 0.932);
+  border: none;
+}
+.list-group-item:hover{
+  /* background-color: rgba(41, 127, 185, 0.568); */
+  color: rgba(0, 0, 0, 0.918);
+}
+input{
+  text-align: center;
+  border: .8px solid #2980B9;
+}
+input:hover{
+  box-shadow: none;
+  border: .8px solid #2980B9;
+  outline: none;
+}
+
+.card button{
+  margin-top: 15px;
+  
+}
+.card button.btngreen{
+  color: rgb(24, 145, 24)
+}
+
+.card button.btnred:hover{
+  color: rgb(238, 0, 0)
+}
+.card button.btngreen:hover{
+  color: rgb(26, 204, 26);
+}
+
+.card button.btnred{
+  float: right;
+}
+.card button.btngreen{
+  float: left;
+}
+.login input{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #182848;
+ 
+ 
+}
+.login input:focus{
+  background-color: #354669;
+  color: white;
+  box-shadow: none;
+  border-radius: 50px !important;
+ 
+}
+.btnbox{
+  margin: 0 auto;
+}
+.btnbox .btn {
+  margin: 10px;
+}
