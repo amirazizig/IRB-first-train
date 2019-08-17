@@ -51,7 +51,7 @@ class App extends Component {
           <div className="btnbox col-6">
 
           <button onClick={this.waltoggle.bind(this)} className="col-6 btn btn-lg btn-info"> Wallet</button>
-          <button onClick={this.logtoggle.bind(this)} className="col-6 btn btn-lg btn-warning"> Lgin</button>
+          <button onClick={this.logtoggle.bind(this)} className="col-6 btn btn-lg btn-warning"> Login</button>
           </div>
           
         
