@@ -34,7 +34,7 @@ class App extends Component {
   render() {
     let show=null;
     if (this.state.loginPre){
-      show= <Login /> 
+      show= <Loogin /> 
     }
     else if(this.state.walletPre){
       show= <Wallet firstone={this.state.firstActive} secondone={this.state.secondActive} click={this.toggle.bind(this)} />
